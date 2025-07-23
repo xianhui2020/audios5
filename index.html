@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>音频播放器</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      background: #f9f9f9;
+      margin: 0;
+      flex-direction: column;
+      padding: 20px;
+    }
+    h1 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+    audio {
+      width: 100%;
+      max-width: 400px;
+      outline: none;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #ccc;
+    }
+  </style>
+</head>
+<body>
+  <h1>欢迎收听音频</h1>
+  <audio controls>
+    <source src="https://raw.githubusercontent.com/xianhui2020/audios5/main/fojiaochangnianjisong-haneshuangyudusong20250708.mp3" type="audio/mpeg" />
+    您的浏览器不支持 audio 标签。
+  </audio>
+</body>
+</html>
